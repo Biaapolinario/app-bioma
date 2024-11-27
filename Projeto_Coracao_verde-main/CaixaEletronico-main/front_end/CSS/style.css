@@ -23,15 +23,15 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background:linear-gradient(0deg,#fcff69, #feffae)   ;
+    background:linear-gradient(0deg,#fcff69, #feffae);
+    padding-right: 20px;
 }
     
 input{
     border-radius: 50px;
     height: 50px;
-    margin: 30px;
+    margin-right: 100px;
     width: 250px;
-    
  }
 
 .logim {
@@ -52,14 +52,13 @@ input{
     width: 50px;
     height: 50px;
     border-radius: 7px;
-    
 }
 
 .logo{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: 70px;
+    gap: 15px;
 }
 
 
@@ -75,9 +74,7 @@ nav{
 button{
     width: 380PX;
     height: 35px;
-    background-color: rgb(255, 210, 106);
-   
-  
+    background-color: rgb(255, 210, 106);    
     
   }
 
@@ -213,5 +210,16 @@ footer img{
  {
     *{
         flex-direction: column;
+        
     } 
+    header{
+        height: auto;
+    }
+    nav{
+        flex-direction: column;
+    }
  } 
+
+
+
+ 
