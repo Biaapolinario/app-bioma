@@ -12,7 +12,7 @@
 .dark-mode{
     color: white;
     background-color: rgba(13, 2, 43, 0.884);
-    background-image: linear-gradient(rgba(3, 3, 30, 0.922), rgba(6, 6, 64, 0.765)),
+    background-image: linear-gradient(rgba(10, 3, 48, 0.705), rgba(6, 6, 64, 0.765)),
     url();
     box-shadow: 4px 8px rgba(242, 244, 239, 0.849),
 }
@@ -39,15 +39,9 @@ input{
     width: 50px;
     height: 50px;
     border-radius: 7px;
-    
 
    
 }
-
-#imagemLogo{
-    text-decoration: none;
-}
-
 #toggle-button { 
     width: 50px;
     height: 50px;
@@ -76,62 +70,63 @@ button{
     width: 380PX;
     height: 35px;
     background-color: rgb(255, 210, 106);
-   
+    
+  }
+
+
+
+.ima{
+    height: 400px;
+    width: 320px;
+    margin: 40px;
+   margin-left: 30px;
   
     
   }
 
-#topo{
-    justify-content: center;
-    display: flex;
-    padding: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
-}  
-.ima{
-    height: 400px;
-    width: 480px;
-    margin: 50px;
-   margin-left: 100px;
-   margin-bottom: 150px;
-    
-  }
+.imagens{
+    border-radius: 15px;
+}
 
 .tema{
     display: flex;
 }
 .texto{
     
-    width: 800px;
+    width: 900px;
     height: 250px;
     justify-content: left;   
-    margin: 8px;
-    margin-bottom: 50px;
+    margin: 10px;
+    margin-bottom: 70px;
 }
  p{
     text-align: justify;
-    font-size: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
  }
-.ex{
-    font-size: 32px;
-    justify-content: left;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
 
-.line{
+ h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 40px;
+
+ }
+
+ .line{
     width: 80%;
     border-radius: 10px;
     border: #096101 2px solid;
-    margin-bottom: 25px;
-}
-.imagens{
- border-radius: 25px;
+    margin-left: 12%;
 }
 
+.ex{
+    font-size: 35px;
+    justify-content: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
  .canto{
-    
     height: auto;
     display: flex;
     flex-direction: column;
@@ -149,22 +144,24 @@ button{
     flex-direction: column;
     justify-content: left;
     margin: 25px;
+    font-size: 18px;
  }
  .esq, .dir{
     display: flex;
     justify-content: center;
     align-items: center;
+    height:380px;
+    margin-top: 55px;
  }
+
+
+
  .org
 {
     display: flex;
     flex-direction: column;
-    margin-right: 100px;
-    margin-bottom: 230px;
-    margin-top: 50px;
-
+    margin-right: 130px;
 }
-
 
 
 footer{   
@@ -207,11 +204,3 @@ footer img{
     justify-content: left;
     font-size: 16px;  
  }
-
-
- @media (max-width:800px) 
- {
-    *{
-        flex-direction: column;
-    } 
- } 

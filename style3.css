@@ -1,0 +1,32 @@
+body{
+    background-color: beige;
+    
+
+}
+
+
+.sites{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-gap: 50px;
+    width: 100%;
+
+}
+.quadros{
+    width: 400px;
+    height: 250px;
+    margin-top: 10%;
+    margin-left: 10%;
+    border: 5px solid;
+    color:  #096101;
+    border-radius: 13px;
+
+
+}
+
+.quadros p{
+   text-align: center; 
+    margin-top: 10px;
+    color:#332222; 
+    font-size: 25px;
+}
