@@ -26,10 +26,10 @@ header{
     background:linear-gradient(0deg,#fcff69, #feffae)   ;
 }
     
-input{
-    border-radius: 50px;
+.peq{
+    border-radius: 15px;
     height: 50px;
-    margin: 30px;
+    margin-right: 50px;
     width: 250px;
     
  }

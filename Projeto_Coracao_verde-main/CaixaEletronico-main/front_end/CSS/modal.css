@@ -30,18 +30,8 @@ dialog .corpo{
     align-items: center;
     gap: 10px;
     flex-direction: column;
-    background-color: white;
+    background-color: beige;
 }
-
-
-input {
-    text-align: center;
-    padding: 0.1rem;
-    width: 50%;
-    border: 0.07rem solid black;
-    border-radius: 0.6rem;
-}
-
 
 #entrada {
     width: 50px;
@@ -54,7 +44,6 @@ input {
 #botaoEntrar {
     width: 100%;
     height: 45px;
-    background: #fff;
     border: none;
     outline: none;
     border-radius: 40px;

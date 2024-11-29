@@ -25,13 +25,28 @@ header{
     justify-content: space-between;
     background:linear-gradient(0deg,#fcff69, #feffae);
     padding-right: 20px;
+    animation: animacao 1s;
 }
+
+@keyframes animacao {   
+    0% {opacity: 0;} 100%{opacity: 1;}
+}
+
     
 input{
     border-radius: 50px;
     height: 50px;
     margin-right: 100px;
     width: 250px;
+    border: none;
+ }
+
+ #serie{
+    border-radius: 15px;
+    height: 50px;
+    margin-right: 50px;
+    width: 250px;
+
  }
 
 .logim {
@@ -52,7 +67,9 @@ input{
     width: 50px;
     height: 50px;
     border-radius: 7px;
+    margin-left: 25px;
 }
+
 
 .logo{
     display: flex;
@@ -67,14 +84,19 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-  
+  animation: animacao 2s;
     
 }
+
+@keyframes animacao {   
+    0% {opacity: 0;} 100%{opacity: 1;}
+}
+
 
 button{
     width: 380PX;
     height: 35px;
-    background-color: rgb(255, 210, 106);    
+    background-color: rgb(255, 210, 106); 
     
   }
 
@@ -84,6 +106,7 @@ button{
     padding: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
+    animation: animacao 2s;
 }  
 .ima{
     height: 400px;
@@ -91,7 +114,7 @@ button{
     margin: 50px;
    margin-left: 100px;
    margin-bottom: 150px;
-    
+   animation: animacao 2s;
   }
 
 .tema{
@@ -109,11 +132,17 @@ button{
     text-align: justify;
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: animacao 2s;
  }
 .ex{
     font-size: 32px;
     justify-content: left;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation: animacao 2s;
+}
+
+@keyframes animacao {   
+    0% {opacity: 0;} 100%{opacity: 1;}
 }
 
 .line{
@@ -121,6 +150,7 @@ button{
     border-radius: 10px;
     border: #096101 2px solid;
     margin-bottom: 25px;
+    animation: animacao 2s;
 }
 .imagens{
  border-radius: 25px;
@@ -177,6 +207,7 @@ footer{
 footer img{
     width: 230px;
     height: 190px;
+    animation: animacao 2s;
     
 }
 
@@ -195,6 +226,7 @@ footer img{
      text-align: left;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
+    animation: animacao 2s;
     
 }  
  
@@ -220,6 +252,14 @@ footer img{
     }
  } 
 
-
+.campo_texto{
+    border-radius: 15px;
+    height: 50px;
+    width: 350px;
+    text-align: center;
+    padding: 0.1rem;
+    border: 0.07rem solid black;
+    border-radius: 0.6rem;
+}
 
  
