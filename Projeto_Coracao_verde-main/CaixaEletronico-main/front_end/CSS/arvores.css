@@ -19,17 +19,31 @@
 
 
 header{
-    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+ }
+
+#cabecalho{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background:linear-gradient(0deg,#fcff69, #feffae)   ;
+    background:linear-gradient(0deg,#fcff69, #feffae);
+   
 }
-    
-.peq{
-    border-radius: 15px;
+
+.lupa{
+    margin: 25px;
+    width: 50px;
     height: 50px;
-    margin-right: 50px;
+    border-radius: 7px;
+ }
+    
+input{
+    border-radius: 50px;
+    height: 50px;
+    margin: 30px;
     width: 250px;
     
  }
@@ -69,7 +83,7 @@ nav{
 button{
     width: 380PX;
     height: 35px;
-    background-color: rgb(255, 210, 106);
+    background-color: rgb(255, 210, 106)
     
   }
 
@@ -80,13 +94,8 @@ button{
     width: 320px;
     margin: 40px;
    margin-left: 30px;
-  
     
   }
-
-.imagens{
-    border-radius: 15px;
-}
 
 .tema{
     display: flex;
@@ -146,7 +155,7 @@ button{
     margin: 25px;
     font-size: 18px;
  }
- .esq, .dir{
+ .card-arvore{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,7 +172,6 @@ button{
     margin-right: 130px;
 }
 
-
 footer{   
     background:linear-gradient(0deg,#feffae,#fcff69 )   ;
     width: 100%;
@@ -177,6 +185,7 @@ footer{
 footer img{
     width: 230px;
     height: 190px;
+    animation: animacao 2s;
     
 }
 
@@ -195,6 +204,7 @@ footer img{
      text-align: left;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
+    animation: animacao 2s;
     
 }  
  
@@ -204,3 +214,18 @@ footer img{
     justify-content: left;
     font-size: 16px;  
  }
+
+
+ @media (max-width:800px) 
+ {
+    *{
+        flex-direction: column;
+        
+    } 
+    header{
+        height: auto;
+    }
+    nav{
+        flex-direction: column;
+    }
+ } 

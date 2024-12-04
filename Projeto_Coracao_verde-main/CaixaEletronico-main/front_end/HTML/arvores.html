@@ -12,170 +12,158 @@
 
 <body class="light-mode">
     <header>
-
+        <div id="cabecalho">
         <img src="../img/logo.png" alt="teste" width="180px" height="150px">
 
         <div class="logo">
 
             <input class="peq" type="text" id="serie" name="pesquisar" placeholder="Pesquisar...">
+            <button class="lupa" onclick="realizarPesquisa()">🔍</button>
 
             <button id="toggle-button"><i class="bi bi-sun-fill"></i> </i> </button>
-
-
         </div>
+    </div>
+        <nav>
+            <a href=""> <button type="button">Arvores do Sesi</button> </a> 
+             <a href="../HTML/quiz.html"> <button type="button">Quiz</button> </a>
+             <a href=""> <button type="button"> Curiosidades</button> </a>
+            <a href="../HTML/galeria.html">  <button type="button"> Fotos</button>    </a>
+      
+        </nav>
 
     </header>
 
-    <nav>
-        <a href="../HTML/arvores.html"> <button type="button">Arvores do Sesi</button> </a> 
-        <a href="../HTML/quiz.html"> <button type="button">Quiz</button> </a>
-        <a href=""> <button type="button"> Curiosidades</button> </a>
-       <a href="../HTML/galeria.html">  <button type="button"> Fotos</button>    </a>
+    <main>
+          <h1 id="topo">Arvores do Sesi </h1>
+  
+          <div class="line"></div>
 
-    </nav>
-
-        <h1>Arvores</h1>
-
-        <div class="line"></div>
-
-    <div class="esq">
-        <div class="ima">
-            <img class="imagens" src="https://blog4.mfrural.com.br/wp-content/uploads/2022/08/crescimento.jpg.webp"
-                alt="teste" width="300" height="260">
-        </div>
-        
-            <div class="org">
-                <h1 class="ex">Pé de Romã</h1>
-              
-                <div class="texto">
-                    <p> Árvores frutíferas são árvores que produzem frutas gostosas e coloridas! Elas têm 
-                     troncos altos e folhas verdes, e, em vez de flores, elas dão frutos que podemos 
-                    comer, como maçãs, laranjas, bananas e muitas outras. As frutas vêm em diferentes
-                     formas, tamanhos e sabores. Essas árvores precisam de sol, água e cuidado para
-                    crescer e dar frutas. </p>
-                </div>
-        </div>
-
-    </div>
-
-    <div class="dir">
-
-        <div class="ima">
-            <img class="imagens"
-                src="https://thumbs.dreamstime.com/b/vegeta%C3%A7%C3%A3o-arb%C3%B3rea-gen%C3%A9rica-com-galhos-de-%C3%A1rvores-vistos-baixo-no-ver%C3%A3o-num-parque-londres-imagem-papel-parede-ramos-%C3%A1rvore-184513718.jpg"
-                alt="teste" width="300" height="260">
-        </div>
-        <div class="org">
-        <h1 class="ex"> Arbóreo</h1>
-        
-        <div class="texto">
-            <p> Árvores arbóreas são aquelas árvores grandes e altas que vemos em parques, 
-            florestas e até nas ruas! Elas têm um tronco firme, muitos galhos e folhas verdes. 
-            Essas árvores são importantes porque oferecem sombra, ajudam a limpar o ar e são 
-            o lar de muitos animais, como pássaros e esquilos. Além disso, algumas árvores 
-            arbóreas dão frutas e flores lindas. Elas demoram bastante tempo para crescer, mas 
-            quando estão grandes, ficam bem impressionantes!</p>
-
-        </div>
-        </div>
-    </div>
-
-    <div class="esq">
-        <div class="ima">
-            <img class="imagens" src="https://i.pinimg.com/736x/8f/bb/94/8fbb94f80590cdfc794973488ee1df44.jpg"
-                alt="teste" width="300" height="260">
-        </div>
-        <div class="org">
-            <h1 class="ex">Árvores Frutíferas</h1>
+      <div class="card-arvore">
+          <div class="ima">
+              <img class="imagens" src="https://blog4.mfrural.com.br/wp-content/uploads/2022/08/crescimento.jpg.webp"
+                  alt="teste" width="300" height="260">
+          </div>
+          <div class="org">
+              <h1 class="ex">Pé de Romã</h1>
+            
+              <div class="texto">
+                  <p> Árvores frutíferas são árvores que produzem frutas gostosas e coloridas! Elas têm 
+                   troncos altos e folhas verdes, e, em vez de flores, elas dão frutos que podemos 
+                  comer, como maçãs, laranjas, bananas e muitas outras. As frutas vêm em diferentes
+                   formas, tamanhos e sabores. Essas árvores precisam de sol, água e cuidado para
+                  crescer e dar frutas. </p>
+              </div>
+          </div>
+  
+      </div>
+  
+      <div class="card-arvore">
+  
+          <div class="ima">
+              <img class="imagens"
+                  src="https://thumbs.dreamstime.com/b/vegeta%C3%A7%C3%A3o-arb%C3%B3rea-gen%C3%A9rica-com-galhos-de-%C3%A1rvores-vistos-baixo-no-ver%C3%A3o-num-parque-londres-imagem-papel-parede-ramos-%C3%A1rvore-184513718.jpg"
+                  alt="teste" width="300" height="260">
+          </div>
+          <div class="org">
+          <h1 class="ex"> Arbóreo</h1>
           
-            <div class="texto" data-name="abc">
-                <p> A árvore que dá romã se chama romãzeira (nome científico: Punica granatum ). É uma árvore frutífera muito especial e cheia de história! Vou te explicar mais sobre ela: </p>
-
-                    A árvore que dá romã se chama romãzeira (nome científico: Punica granatum ). É uma árvore frutífera muito especial e cheia de história! Vou te explicar mais sobre ela: </p>
-                    
-                    Características da Romãzeira 🌳
-                    Tamanho: É uma árvore de porte médio, que pode crescer até 5 metros de altura, mas também pode ser cultivada como um arbusto.
-                    Tronco e Galhos: O tronco é curto, e os galhos são finos e podem ter espinhos.
-                    Folhas: Suas folhas são pequenas, lisas e finas.
-                    Flores: As flores da romãzeira são vermelhas ou alaranjadas e muito bonitas. Elas atraem abelhas e outros polinizadores. 🌺
-                    O Fruto: A Romã 🍊
-                    A romã é uma fruta redonda, com uma casca grossa e resistente.
-                    Dentro, há várias sementes cobertas por uma polpa suculenta e avermelhada, que é a parte comestível. Cada semente é envolvido por uma espécie de "saquinho" cheio de suco doce e levemente azedo.
-                    A romã é conhecida por ter muitas sementes, o que simboliza abundância e fertilidade em várias culturas.
-                    Benefícios da Romã 🍽️
-                    A romã é rica em vitaminas (como vitamina C) e antioxidantes, que ajudam a proteger o corpo.
-                    Também é usado em sucos, chás e até produtos de beleza.
-                    Curiosidade:
-                    A romãzeira é uma árvore que se adapta bem a climas secos e quentes, ou que se torna resistente e fácil de cultivar em regiões áridas. 🌞</p>
-            </div>
-        </div>
-
-    </div>
-
-
-    <div class="dir">
-
-        <div class="ima">
-            <img class="imagens"
-                src="https://thumbs.dreamstime.com/b/vegeta%C3%A7%C3%A3o-arb%C3%B3rea-gen%C3%A9rica-com-galhos-de-%C3%A1rvores-vistos-baixo-no-ver%C3%A3o-num-parque-londres-imagem-papel-parede-ramos-%C3%A1rvore-184513718.jpg"
-                alt="teste" width="300" height="260">
-        </div>
-        <div class="org">
-        <h1 class="ex"> Arbóreo</h1>
-        
-        <div class="texto">
-            <p> Árvores arbóreas são aquelas árvores grandes e altas que vemos em parques, 
-            florestas e até nas ruas! Elas têm um tronco firme, muitos galhos e folhas verdes. 
-            Essas árvores são importantes porque oferecem sombra, ajudam a limpar o ar e são 
-            o lar de muitos animais, como pássaros e esquilos. Além disso, algumas árvores 
-            arbóreas dão frutas e flores lindas. Elas demoram bastante tempo para crescer, mas 
-            quando estão grandes, ficam bem impressionantes!</p>
-
-        </div>
-        </div>
-    </div>
-
-    <div class="esq">
-        <div class="ima">
-            <img class="imagens" src="https://i.pinimg.com/736x/8f/bb/94/8fbb94f80590cdfc794973488ee1df44.jpg"
-                alt="teste" width="300" height="260">
-        </div>
-        <div class="org">
-            <h1 class="ex">Árvores Frutíferas</h1>
+          <div class="texto">
+              <p> Árvores arbóreas são aquelas árvores grandes e altas que vemos em parques, 
+              florestas e até nas ruas! Elas têm um tronco firme, muitos galhos e folhas verdes. 
+              Essas árvores são importantes porque oferecem sombra, ajudam a limpar o ar e são 
+              o lar de muitos animais, como pássaros e esquilos. Além disso, algumas árvores 
+              arbóreas dão frutas e flores lindas. Elas demoram bastante tempo para crescer, mas 
+              quando estão grandes, ficam bem impressionantes!</p>
+  
+          </div>
+          </div>
+      </div>
+  
+      <div class="card-arvore">
+          <div class="ima">
+              <img class="imagens" src="https://i.pinimg.com/736x/8f/bb/94/8fbb94f80590cdfc794973488ee1df44.jpg"
+                  alt="teste" width="300" height="260">
+          </div>
+          <div class="org">
+              <h1 class="ex">Árvores Frutíferas</h1>
+            
+              <div class="texto">
+                  <p> Árvores frutíferas são árvores que produzem frutas gostosas e coloridas! Elas têm 
+                   troncos altos e folhas verdes, e, em vez de flores, elas dão frutos que podemos 
+                  comer, como maçãs, laranjas, bananas e muitas outras. As frutas vêm em diferentes
+                   formas, tamanhos e sabores. Essas árvores precisam de sol, água e cuidado para
+                  crescer e dar frutas. </p>
+              </div>
+          </div>
+  
+      </div>
+  
+  
+      <div class="card-arvore">
+  
+          <div class="ima">
+              <img class="imagens"
+                  src="https://thumbs.dreamstime.com/b/vegeta%C3%A7%C3%A3o-arb%C3%B3rea-gen%C3%A9rica-com-galhos-de-%C3%A1rvores-vistos-baixo-no-ver%C3%A3o-num-parque-londres-imagem-papel-parede-ramos-%C3%A1rvore-184513718.jpg"
+                  alt="teste" width="300" height="260">
+          </div>
+          <div class="org">
+          <h1 class="ex"> Arbóreo</h1>
           
-            <div class="texto">
-                <p> Árvores frutíferas são árvores que produzem frutas gostosas e coloridas! Elas têm 
-                 troncos altos e folhas verdes, e, em vez de flores, elas dão frutos que podemos 
-                comer, como maçãs, laranjas, bananas e muitas outras. As frutas vêm em diferentes
-                 formas, tamanhos e sabores. Essas árvores precisam de sol, água e cuidado para
-                crescer e dar frutas. </p>
-            </div>
-        </div>
+          <div class="texto">
+              <p> Árvores arbóreas são aquelas árvores grandes e altas que vemos em parques, 
+              florestas e até nas ruas! Elas têm um tronco firme, muitos galhos e folhas verdes. 
+              Essas árvores são importantes porque oferecem sombra, ajudam a limpar o ar e são 
+              o lar de muitos animais, como pássaros e esquilos. Além disso, algumas árvores 
+              arbóreas dão frutas e flores lindas. Elas demoram bastante tempo para crescer, mas 
+              quando estão grandes, ficam bem impressionantes!</p>
+  
+          </div>
+          </div>
+      </div>
+  
+      <div class="card-arvore">
+          <div class="ima">
+              <img class="imagens" src="https://i.pinimg.com/736x/8f/bb/94/8fbb94f80590cdfc794973488ee1df44.jpg"
+                  alt="teste" width="300" height="260">
+          </div>
+          <div class="org">
+              <h1 class="ex">Árvores Frutíferas</h1>
+            
+              <div class="texto">
+                  <p> Árvores frutíferas são árvores que produzem frutas gostosas e coloridas! Elas têm 
+                   troncos altos e folhas verdes, e, em vez de flores, elas dão frutos que podemos 
+                  comer, como maçãs, laranjas, bananas e muitas outras. As frutas vêm em diferentes
+                   formas, tamanhos e sabores. Essas árvores precisam de sol, água e cuidado para
+                  crescer e dar frutas. </p>
+              </div>
+          </div>
+  
+      </div>
+  
+  
+      <div class="card-arvore">
+  
+          <div class="ima">
+              <img class="imagens"
+                  src="https://thumbs.dreamstime.com/b/vegeta%C3%A7%C3%A3o-arb%C3%B3rea-gen%C3%A9rica-com-galhos-de-%C3%A1rvores-vistos-baixo-no-ver%C3%A3o-num-parque-londres-imagem-papel-parede-ramos-%C3%A1rvore-184513718.jpg"
+                  alt="teste" width="300" height="260">
+          </div>
+          <div class="org">
+          <h1 class="ex"> Arbóreo</h1>
+          
+          <div class="texto">
+              <p> Árvores arbóreas são aquelas árvores grandes e altas que vemos em parques, 
+              florestas e até nas ruas! Elas têm um tronco firme, muitos galhos e folhas verdes. 
+              Essas árvores são importantes porque oferecem sombra, ajudam a limpar o ar e são 
+              o lar de muitos animais, como pássaros e esquilos. Além disso, algumas árvores 
+              arbóreas dão frutas e flores lindas. Elas demoram bastante tempo para crescer, mas 
+              quando estão grandes, ficam bem impressionantes!</p>
+  
+          </div>
+          </div>
+      </div>
 
-    </div>
-
-
-    <div class="dir">
-
-        <div class="ima">
-            <img class="imagens"
-                src="https://thumbs.dreamstime.com/b/vegeta%C3%A7%C3%A3o-arb%C3%B3rea-gen%C3%A9rica-com-galhos-de-%C3%A1rvores-vistos-baixo-no-ver%C3%A3o-num-parque-londres-imagem-papel-parede-ramos-%C3%A1rvore-184513718.jpg"
-                alt="teste" width="300" height="260">
-        </div>
-        <div class="org">
-        <h1 class="ex"> Arbóreo</h1>
-        
-        <div class="texto">
-            <p> Árvores arbóreas são aquelas árvores grandes e altas que vemos em parques, 
-            florestas e até nas ruas! Elas têm um tronco firme, muitos galhos e folhas verdes. 
-            Essas árvores são importantes porque oferecem sombra, ajudam a limpar o ar e são 
-            o lar de muitos animais, como pássaros e esquilos. Além disso, algumas árvores 
-            arbóreas dão frutas e flores lindas. Elas demoram bastante tempo para crescer, mas 
-            quando estão grandes, ficam bem impressionantes!</p>
-
-        </div>
-        </div>
-    </div>
+    </main>
 
     <footer>
         <div class="cantoF">
@@ -200,6 +188,6 @@
 
 
     <script src="../JS/trabalho.js"></script>
-    <script src="../JS/pesquisa.js"></script>
+    <script src="../JS/pesquisar-arv.js"></script>
 </body>
 </html>

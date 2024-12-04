@@ -1,5 +1,4 @@
-
-const searchInput = document.querySelector('#pesquisar');
+const searchInput = document.querySelector('#pesquisar-arv');
 const org = document.querySelectorAll('.org');
 
 searchInput.addEventListener('keypress', function (event) {
@@ -11,7 +10,7 @@ searchInput.addEventListener('keypress', function (event) {
 searchInput.addEventListener('click',()=>{
     const topo = document.querySelector('#topo');
     const termo = document.getElementById('barraPesquisa').value.toLowerCase();
-    const cards_arvores = document.querySelectorAll('.card-arvore');
+    const cards_arvores = document.querySelectorAll('card-arvore');
 
     let encontrou = false;
 
@@ -30,6 +29,6 @@ searchInput.addEventListener('click',()=>{
         topo.innerText = 'Nenhuma arvore encontrada com esse nome'
     }
     else{
-        topo.innerText = "Estudo da vegetação"
+        topo.innerText = "Arvores do Sesi"
     }
 })

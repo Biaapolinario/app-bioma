@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function limparRespostas(){
     const fieldsets = document.querySelectorAll('.fieldset'); // Seleciona todos os fieldsets
+    const alert = document.querySelector('.alert_sucesso_div')
 
     fieldsets.forEach(fieldset => {
         const inputs = fieldset.querySelectorAll('input[type="checkbox"]');
@@ -42,4 +43,10 @@ function limparRespostas(){
             inp.checked = false
         });
     })
+
+    alert.classList.add('active')
+    window.scrollTo(0, 0)
+    setTimeout(function(){
+        alert.classList.remove('active')
+    }, 1500)
 }

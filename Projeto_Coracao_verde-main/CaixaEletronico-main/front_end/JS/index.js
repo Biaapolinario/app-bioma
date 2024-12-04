@@ -20,7 +20,7 @@ botao.addEventListener('click',
       }
    }
 )
-
+//////////////////////////////////////////////////////////////////////////////////////////////////
 
 const openButtons = document.querySelectorAll('.open-modal');
 openButtons.forEach((button) => { //pega qual dos botões foram selecionados da class .open-modal
